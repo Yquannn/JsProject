@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gandamo</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+  <p class="title"> Rock Paper Scissors</p>
+ 
+<p>
+
+
+  <button onclick="
+     playGame('rock');
+     timer();
+     checking();
+     
+    
+  " class="move-button" id="move-button"><img src="img/rock-emoji.png" class="move-icon"></button>
+
+  <button onclick="
+    playGame('paper');
+    timer();
+    checking();
+   
+
+  " class="move-button" id="move2-button"><img src="img/paper-emoji.png" class="move-icon"></button>
+
+  <button onclick="
+   playGame('scissors');
+   timer();
+   checking(); 
+   
+   
+  " class="move-button" id="move3-button"><img src="img/scissors-emoji.png" class="move-icon"></button>
+
+  <p class="js-result result"></p>
+  <p class="js-moved" ></p>
+  <p id="timerDisplay"></p>
+  <p class="js-score score"></p>
+  <p>
+    
+    <button onclick="
+  reset()
+    " class="myBtn-reset">Reset Score</button>
+  <p>
+    <button onclick="navigateToPageClone()" class="myBtn-clone" id="myBtn1">click mo q</button>
+    <button onclick="navigateToPage()" class="myBtn-click" id="myBtn2">Eto na Click mo</button>
+  </p>
+
+</p>
+
+</div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(25,25,25);
+  color: white;
+  font-family: Arial;
+
+}
+.title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.myBtn-reset{
+  border: none;
+  padding: 8px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+.myBtn-clone, .myBtn-click {
+  color: white;
+  background-color: green;
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  padding: 8px 15px;
+  font-size: 20px;
+  /* Centering styles */
+  top: 110%; /* Position the top edge at 50% of the parent's height */
+  left: 50%; /* Position the left edge at 50% of the parent's width */
+  transform: translate(-50%, -50%); /* Move the button back by 50% of its own width and height */
+}
+
+@media (max-width: 768px) {
+  /* Adjust button size and position for smaller screens */
+  .myBtn {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for even smaller screens */
+  .myBtn {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+}
+
+
+.move-icon{
+  height: 50px;   
+}
+.move-button{
+  background-color: transparent;
+  margin-right: 10px;
+  border: 3px solid green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+ 
+}
+.result{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+P{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.wrapper {
+  position: relative;
+  width: 1000; /* Adjust as needed */
+  height: 1000; /* Adjust as needed */
+}
